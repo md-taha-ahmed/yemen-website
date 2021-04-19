@@ -1,88 +1,25 @@
-.navbar{
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+header span{
   font-family: 'Cairo', sans-serif;
 }
-/* navbar menu animation*/
-@media (min-width: 992px) {
-  .animate {
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-  }
+
+a {
+color: white;
+  text-decoration: none;
 }
 
-@keyframes slideIn {
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-  100% {
-    transform:translateY(0rem);
-    opacity: 1;
-  }
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
+body{
+  font-family:'Cairo', sans-serif ;
+}
+span{
+  color: gold;
+}
+.navbar a:hover{
+  color: gold;
 }
 
-@-webkit-keyframes slideIn {
-  0% {
-    -webkit-transform: transform;
-    -webkit-opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    -webkit-opacity: 1;
-  }
-  0% {
-    -webkit-transform: translateY(1rem);
-    -webkit-opacity: 0;
-  }
+.navbar{
+  background-color: black;
 }
-
-.slideIn {
-  -webkit-animation-name: slideIn;
-  animation-name: slideIn;
-}
-/*smooth scroll down*/
-html {
-  scroll-behavior: smooth;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-.box {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
-
-.box .row {
-  border: 1px dotted grey;
-}
-
-.box .row.header {
-  flex: 0 1 auto;
-  /* The above is shorthand for:
-  flex-grow: 0,
-  flex-shrink: 1,
-  flex-basis: auto
-  */
-}
-
-.box .row.content {
-  flex: 1 1 auto;
-}
-
-.box .row.footer {
-  flex: 0 1 40px;
+#hav{
+  color: gold;
 }
