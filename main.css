@@ -21,4 +21,18 @@ span{
   background-color:black;
 }
 
+#pic{
+  height: 400px;
+  width: 642px;
+  position: relative;
+}
+
+.textonpic{
+  color: black;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 100%;
+}
+
 
