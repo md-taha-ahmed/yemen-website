@@ -16,46 +16,55 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <div class="navbar-brand">
-          <h2><a href="index.html">يمن <span>.</span>كوم</a></h2>
-        </div>
+        <a class="navbar-brand" href="#">يمن<span>.</span>كوم</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <li class="nav-item d-flex justify-content-between">
-          <a class="nav-link" href="#">الرئيسية</a>
-        </li>
-        <li class="nav-item d-flex justify-content-between">
-          <a class="nav-link" href="#">تاريخ</a>
-        </li>
-        <li class="nav-item d-flex justify-content-between">
-          <a class="nav-link" href="#">سياحة</a>
-        </li>
-        <li class="nav-item dropdown d-flex justify-content-between">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            مدن
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">صنعاء</a></li>
-            <li><a class="dropdown-item" href="#">عدن</a></li>
-            <li><a class="dropdown-item" href="#">تعز</a></li>
-            <li><a class="dropdown-item" href="#">حضر موت</a></li>
-            <li><a class="dropdown-item" href="#">إب</a></li>
-            <li><a class="dropdown-item" href="#">سقطرى</a></li>
-          </ul>
-        </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">سياحة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تاريخ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                مدن
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="">صنعاء</a></li>
+                <li><a class="dropdown-item" href="aden_ar.html">عدن</a></li>
+                <li><a class="dropdown-item" href="#">تعز</a></li>
+                <li><a class="dropdown-item" href="#">حضرموت</a></li>
+                <li><a class="dropdown-item" href="#">إب</a></li>
+                <li><a class="dropdown-item" href="#">سقطرى</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
 
-        <li class="nav-item d-flex justify-content-end">
-          <a class="nav-link" href="#">اتصل بنا</a>
-        </li>
+
+        
+        <div class="d-flex flex-row-reverse bd-highlight">
+          <a href="#">
+            <button type="button" class="btn btn-outline-primary btn-xs">Primary</button>
+          </a>
+        </div>
+      </div>
+        </ul>
+      </div>
       </div>
     </nav>
   </header>
-  <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel" >
+  <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -73,32 +82,32 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <a href="#">
-          <img src="sanaa.jpg" class="d-block w-100" height="564" alt="sanaa">
+          <img src="sanaa.jpg" class="d-block w-100" id="pic-c" alt="sanaa">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="aden.jpg" class="d-block w-100" height="564" alt="aden">
+          <img src="aden.jpg" class="d-block w-100" id="pic-c" alt="aden">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="taizz.jpg" class="d-block w-100" height="564" alt="taizz">
+          <img src="taizz.jpg" class="d-block w-100" id="pic-c" alt="taizz">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="ibb.jpg" class="d-block w-100" height="564" alt="ibb">
+          <img src="ibb.jpg" class="d-block w-100" id="pic-c" alt="ibb">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="hadhramaut.jpg" class="d-block w-100" height="564" alt="hadhramaut">
+          <img src="hadhramaut.jpg" class="d-block w-100" id="pic-c" alt="hadhramaut">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="socotra.jpg" class="d-block w-100" height="564" alt="socotra">
+          <img src="socotra.jpg" class="d-block w-100" id="pic-c" alt="socotra">
         </a>
       </div>
     </div>
@@ -126,6 +135,10 @@
       </a>
     </div>
   </div>
+<hr>
+  <footer>
+    md taha
+  </footer>
 
 
   <!-- Optional JavaScript; choose one of the two! -->

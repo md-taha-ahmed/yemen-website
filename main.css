@@ -2,19 +2,12 @@ header span{
   font-family: 'Cairo', sans-serif;
 }
 
-a {
-color: white;
-  text-decoration: none;
-}
 
 body{
   font-family:'Cairo', sans-serif ;
 }
 span{
-  color: gold;
-}
-.navbar a:hover{
-  color: gold;
+  color: blue;
 }
 
 .navbar{
@@ -23,16 +16,16 @@ span{
 
 #pic{
   height: 400px;
-  width: 642px;
+  width: 635px;
   position: relative;
+  padding: 10px;
 }
 
-.textonpic{
-  color: black;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 100%;
+#pic-c{
+  height: 568px;
+}
+footer{
+  background-color: gray;
 }
 
 
