@@ -5,13 +5,15 @@ header span{
 
 body{
   font-family:'Cairo', sans-serif ;
+
 }
 span{
-  color: blue;
+  color:white;
+ 
 }
 
 .navbar{
-  background-color:black;
+  background-color:#0d8592;
 }
 
 #pic{
@@ -24,8 +26,15 @@ span{
 #pic-c{
   height: 568px;
 }
-footer{
-  background-color: gray;
+
+footer a{
+  color: rgb(255, 255, 255);
+  text-decoration:none ;
+}
+footer a:hover{
+color: white;
 }
 
-
+#clr{
+  color: white;
+}
