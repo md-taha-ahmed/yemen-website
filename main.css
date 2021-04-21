@@ -38,3 +38,7 @@ color: white;
 #clr{
   color: white;
 }
+.responsive{
+  width: 100%;
+  height: auto;
+}
