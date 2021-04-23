@@ -7,6 +7,9 @@ body{
   font-family:'Cairo', sans-serif ;
 
 }
+h1 h2 h3 h4 h5 h6{
+  color: #08434b;
+}
 
 
 .navbar{
@@ -38,4 +41,8 @@ color: white;
 .responsive{
   width: 100%;
   height: auto;
+}
+#pic-p{
+  height: 400px;
+
 }

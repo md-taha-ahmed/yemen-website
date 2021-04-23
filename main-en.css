@@ -1,0 +1,41 @@
+header span{
+  font-family: 'Playfair Display', serif;
+  }
+  
+  
+  body{
+    font-family: 'Playfair Display', serif;
+  
+  }
+  
+  
+  .navbar{
+    background-color:#0d8592;
+  }
+  
+  #pic{
+    height: 400px;
+    width: 635px;
+    position: relative;
+    padding: 10px;
+  }
+  
+  #pic-c{
+    height: 568px;
+  }
+  
+  footer a{
+    color: rgb(255, 255, 255);
+    text-decoration:none ;
+  }
+  footer a:hover{
+  color: white;
+  }
+  
+  #clr{
+    color: white;
+  }
+  .responsive{
+    width: 100%;
+    height: auto;
+  }
