@@ -1,48 +1,50 @@
-header span{
-  font-family: 'Cairo', sans-serif;
+header span {
+    font-family: 'Cairo', sans-serif;
 }
 
-
-body{
-  font-family:'Cairo', sans-serif ;
-
-}
-h2 ,h1{
-  color: #08434b;
+body {
+    font-family: 'Cairo', sans-serif;
 }
 
-
-.navbar{
-  background-color:#0d8592;
+h2,
+h1 {
+    color: #08434b;
+    font-family: 'Lemonada', cursive;
 }
 
-#pic{
-  height: 400px;
-  width: 635px;
-  position: relative;
-  padding: 10px;
+.navbar {
+    background-color: #0d8592;
 }
 
-#pic-c{
-  height: 568px;
+#pic {
+    height: 400px;
+    width: 635px;
+    position: relative;
+    padding: 10px;
 }
 
-footer a{
-  color: rgb(255, 255, 255);
-  text-decoration:none ;
-}
-footer a:hover{
-color: white;
+#pic-c {
+    height: 568px;
 }
 
-#clr{
-  color: white;
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
-.responsive{
-  width: 100%;
-  height: auto;
-}
-#pic-p{
-  height: 400px;
 
+footer a:hover {
+    color: white;
+}
+
+#clr {
+    color: white;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#pic-p {
+    height: 400px;
 }
